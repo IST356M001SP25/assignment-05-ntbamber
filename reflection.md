@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Noah Bamberger
+Sudent Email:  ntbamber@syr.edu
 
 ## Instructions
 
@@ -23,3 +23,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+This assignment helped me to understand the importance of normalizing the format of your data in an ETL pipeline. I ran into an issue merging the survey and COL datasets due to differences in how they named cities, but was able to solve this with help from copilot. It was also new to me to upload files to S3, but it was fairly simple to understand.
