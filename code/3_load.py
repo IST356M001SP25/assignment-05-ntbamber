@@ -40,5 +40,14 @@ def upload_file(file_name, bucket_name, object_name=None):
     return True
 
 if __name__ == '__main__':
-    #TODO: Write your load code here (remove pass first)
-    pass
+    # Replace this with your actual NetID
+    bucket_name = 'ist356ntbamber'
+    files_to_upload = [
+        'cache/survey_dataset.csv',
+        'cache/annual_salary_adjusted_by_location_and_age.csv',
+        'cache/annual_salary_adjusted_by_location_and_education.csv'
+    ]
+
+    for fpath in files_to_upload:
+        fname = fpath.replace('cache/', '')
+        upload_file(fpath, bucket_name, object_name=fname)
